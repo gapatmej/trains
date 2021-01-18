@@ -1,6 +1,7 @@
-HELP.md
+### Gradle ###
 .gradle
-build/
+/build/
+
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
@@ -20,17 +21,6 @@ build/
 *.iml
 *.ipr
 out/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
 
 # compiled output
 /dist
@@ -54,14 +44,6 @@ speed-measure-plugin.json
 *.launch
 .settings/
 *.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
 
 # misc
 /.sass-cache
