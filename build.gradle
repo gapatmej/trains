@@ -2,25 +2,44 @@ plugins {
     id 'application'
 }
 
-ext {
-    javaMainClass = "ec.com.gapatmej.main.Trains"
-}
-
-application {
-    mainClassName = javaMainClass
-}
+mainClassName = "ec.com.gapatmej.main.Trains"
 
 group 'org.example'
 version '1.0-SNAPSHOT'
 
 repositories {
+    mavenLocal()
     mavenCentral()
+    maven { url "https://repo.spring.io/plugins-release" }
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.apache.commons:commons-lang3:3.11'
+    implementation 'commons-io:commons-io:2.8.0'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+
 }
 
-run{
+run {
     standardInput = System.in
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "ec.com.gapatmej.main.Trains"
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+task customBuild(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'ec.com.gapatmej.main.Trains'
+    }
+    baseName = 'trains'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+
 }

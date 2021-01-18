@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb28e059-7414-4f9b-96af-d509e27cc24c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/conditions/ITravelCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/conditions/impl/ExactStopsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/conditions/impl/InfinitiveCycleCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/conditions/impl/MaximumDistanceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/conditions/impl/MaximumStopsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/conditions/impl/StartWithCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/AbstractOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/CalculateDistanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/ExactStopsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/GraphController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/IOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/MaxDistanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/MaxStopsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/ShortestTravelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/IGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/ITravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/IWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/impl/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/impl/Travel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/impl/Way.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/enums/OptionMenuEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/enums/ToolBarOptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/exceptions/InputWrongException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/exceptions/NotFoundTownException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/exceptions/NotFoundTravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/exceptions/ReturnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/AbstractView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/CalculateDistanceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/GraphView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/IView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/ToolBarView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/TravelShortestView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/TravelsExactlyStopsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/TravelsMaximumDistanceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/TravelsMaximumStopsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/main/Trains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/main/Trains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/gapatmej/views/MenuView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="trains" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="trains" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mleHz775nM34fVThF2QAThGPis" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ec.com.gapatmej.main.Trains" />
+      <module name="trains" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run Gradlew" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2">
+        <option name="Gradle.BeforeRunTask" enabled="true" tasks="" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb28e059-7414-4f9b-96af-d509e27cc24c" name="Default Changelist" comment="" />
+      <created>1610072520865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610072520865</updated>
+      <workItem from="1610072521957" duration="4285000" />
+      <workItem from="1610753143796" duration="48831000" />
+      <workItem from="1610926673404" duration="6395000" />
+      <workItem from="1610933405564" duration="5721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1472" y="150" key="#Project_Structure" timestamp="1610927745843">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1472" y="149" key="#Project_Structure/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610072715494" />
+    <state x="-1472" y="150" key="#Project_Structure/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610927745843" />
+    <state x="-1222" y="340" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1610923084452">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1222" y="341" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610074543004" />
+    <state x="-1222" y="340" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610923084452" />
+    <state x="-1496" y="195" width="1071" height="850" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610939469621">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1496" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610073824897" />
+    <state x="-1496" y="195" width="1071" height="850" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939469621" />
+    <state x="-1147" y="275" key="#com.intellij.ide.util.MemberChooser" timestamp="1610923920175">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1147" y="275" key="#com.intellij.ide.util.MemberChooser/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610923920175" />
+    <state x="-1223" y="365" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610073785805">
+      <screen x="-1920" y="82" width="1920" height="972" />
+    </state>
+    <state x="-1223" y="365" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610073785805" />
+    <state x="-1263" y="249" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610923764807">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1263" y="249" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610923764807" />
+    <state x="-1222" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610855399643">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1222" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610855399643" />
+    <state x="-1211" y="403" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1610895276048">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1211" y="403" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610895276048" />
+    <state width="486" height="466" key="DebuggerActiveHint" timestamp="1610933754520">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="486" height="466" key="DebuggerActiveHint/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610933754520" />
+    <state x="-1820" y="184" width="1720" height="761" key="DiffContextDialog" timestamp="1610849998254">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1820" y="184" width="1720" height="761" key="DiffContextDialog/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610849998249" />
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom" timestamp="1610939425525">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.0.bottom/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243799" />
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425525" />
+    <state width="1878" height="348" key="GridCell.Tab.0.center" timestamp="1610939425524">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.0.center/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243798" />
+    <state width="1878" height="348" key="GridCell.Tab.0.center/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425524" />
+    <state width="1878" height="348" key="GridCell.Tab.0.left" timestamp="1610939425523">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.0.left/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243798" />
+    <state width="1878" height="348" key="GridCell.Tab.0.left/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425523" />
+    <state width="1878" height="348" key="GridCell.Tab.0.right" timestamp="1610939425524">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.0.right/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243798" />
+    <state width="1878" height="348" key="GridCell.Tab.0.right/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425524" />
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1610939425338">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.bottom/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243800" />
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425338" />
+    <state width="1878" height="348" key="GridCell.Tab.1.center" timestamp="1610939425337">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.center/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243799" />
+    <state width="1878" height="348" key="GridCell.Tab.1.center/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425337" />
+    <state width="1878" height="348" key="GridCell.Tab.1.left" timestamp="1610939425337">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.left/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243799" />
+    <state width="1878" height="348" key="GridCell.Tab.1.left/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425337" />
+    <state width="1878" height="348" key="GridCell.Tab.1.right" timestamp="1610939425338">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.right/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610457243800" />
+    <state width="1878" height="348" key="GridCell.Tab.1.right/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939425338" />
+    <state x="-1472" y="150" key="SettingsEditor" timestamp="1610934058455">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1472" y="149" key="SettingsEditor/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610074023954" />
+    <state x="-1472" y="150" key="SettingsEditor/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610934058455" />
+    <state x="-1253" y="322" width="586" height="548" key="find.popup" timestamp="1610939313259">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1253" y="323" width="586" height="548" key="find.popup/-1920.82.1920.972/0.23.1440.877@-1920.82.1920.972" timestamp="1610073996869" />
+    <state x="-1253" y="322" width="586" height="548" key="find.popup/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610939313259" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1610917825571">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610917825571" />
+    <state x="-1176" y="334" key="refactoring.ChangeSignatureDialog" timestamp="1610916492885">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1176" y="334" key="refactoring.ChangeSignatureDialog/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610916492885" />
+    <state x="-1295" y="295" width="670" height="676" key="search.everywhere.popup" timestamp="1610917734420">
+      <screen x="-1920" y="84" width="1920" height="961" />
+    </state>
+    <state x="-1295" y="295" width="670" height="676" key="search.everywhere.popup/-1920.84.1920.961/0.25.1440.875@-1920.84.1920.961" timestamp="1610917734420" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/impl/Graph.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/impl/Graph.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/com/gapatmej/controller/CalculateDistanceController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/impl/Travel.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/com/gapatmej/entities/impl/Travel.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ToolBarOptionEnum.QUIT.key()" />
+        <watch expression="ToolBarOptionEnum.QUIT.key().equals(input)" />
+        <watch expression="!ways.get(i).equals(actualWays.get(i)" />
+        <watch expression="i &gt;= actualWays.size() " language="JAVA" />
+        <watch expression="!ways.get(i).equals(actualWays.get(i))" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trains$Trains.ic" NAME="Trains Coverage Results" MODIFIED="1610907490599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ec.com.gapatmej.main.*</FILTER>
+    </SUITE>
+  </component>
+</project>
