@@ -27,14 +27,11 @@ public class MenuView extends AbstractView {
 
     public void getInput() {
         IGraph graph = new Graph();
-        boolean test = true;
         while (true) {
-            test=false;
             draw();
             Scanner scan = new Scanner(System.in);
             System.out.println("Input an option");
             String input = scan.nextLine();
-           // String input = "aassa";
             OptionMenuEnum optionSelected = null;
             try {
                 ToolBarView.validateInput(input);

@@ -6,6 +6,8 @@ import ec.com.gapatmej.enums.ToolBarOptionEnum;
 import ec.com.gapatmej.exceptions.ReturnException;
 import ec.com.gapatmej.utils.Constants;
 
+import java.util.Scanner;
+
 
 public class GraphView extends AbstractView {
 
@@ -36,12 +38,11 @@ public class GraphView extends AbstractView {
     public void getInput() {
         while (true) {
             draw();
-           // Scanner myObj = new Scanner(System.in);
+            Scanner myObj = new Scanner(System.in);
             System.out.println("Input your Graph");
-           // String input = myObj.nextLine().replaceAll("\\s+","");
+            String input = myObj.nextLine().replaceAll("\\s+","");
             try {
-                String input = "AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7".replaceAll("\\s+","");
-               // ToolBarView.validateInput(input);
+                ToolBarView.validateInput(input);
                 IOption option = new GraphController(input,graph);
                 messageOutput = new StringBuilder();
                 messageOutput.append("The the proccess was : ");
